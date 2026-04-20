@@ -41,7 +41,7 @@ body {
   z-index: 0;
   overflow: hidden;
   pointer-events: none;
-  background: url("image.png") center / cover no-repeat;
+  background: url("image.webp") center / cover no-repeat;
 }
 
 .page-media__overlay {
