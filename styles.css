@@ -118,7 +118,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #6f5f5f;
-  font-size: 0.82rem;
+  font-size: 1.2rem;
   margin-bottom: 15px;
 }
 
@@ -132,8 +132,10 @@ a {
 
 .hero__date {
   margin: 0;
-  font-size: clamp(1.05rem, 3.3vw, 1.5rem);
   color: #5b4d4d;
+  font-size: 35px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: bold;
 }
 
 .hero__quote {

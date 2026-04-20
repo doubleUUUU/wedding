@@ -28,7 +28,9 @@
         io.unobserve(entry.target);
       });
     },
-    { root: null, rootMargin: "0px 0px -6% 0px", threshold: 0.12 }
+    // Slightly softer trigger helps bottom elements (like footer) reveal
+    // consistently on very wide/tall viewports.
+    { root: null, rootMargin: "0px 0px -2% 0px", threshold: 0.05 }
   );
 
   nodes.forEach(function (el) {
