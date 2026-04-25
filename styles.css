@@ -80,6 +80,10 @@ a {
   padding: 4.5rem 0;
 }
 
+.section__eyebrow {
+  text-transform: uppercase;
+}
+
 .section__title {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: clamp(2rem, 6vw, 3rem);
